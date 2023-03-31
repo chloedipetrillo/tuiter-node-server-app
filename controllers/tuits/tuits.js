@@ -10,7 +10,7 @@ export default [
         "disliked": false,
         "replies": 123,
         "retuits": 432,
-        "likes": 2345,
+        "likes": 23,
         "dislikes": 121,
         "handle": "@spacex",
         "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
@@ -26,7 +26,7 @@ export default [
         "disliked": false,
         "replies": 345,
         "retuits": 321,
-        "likes": 1234,
+        "likes": 134,
         "dislikes": 2,
         "tuit": "Here is my tweet. I am going to say nonsense for a while so it is longer. Yay web dev.",
         "handle": "@webdev"
@@ -40,10 +40,10 @@ export default [
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         "liked": false,
         "disliked": true,
-        "replies": 3425,
-        "retuits": 3321,
+        "replies": 35,
+        "retuits": 331,
         "likes": 134,
-        "dislikes": 3212,
+        "dislikes": 322,
         "tuit": "Hi!",
         "handle": "@javascript"
     },
