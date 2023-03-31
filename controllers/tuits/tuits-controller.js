@@ -13,9 +13,11 @@ const templateTuit = {
     "topic": "This is the default topic!",
     "time": "now",
     "liked": false,
+    "disliked": false,
     "replies": 0,
     "retuits": 0,
     "likes": 0,
+    "dislikes": 0,
 }
 const createTuit = (req, res) => {
     const newTuit = req.body;

@@ -7,9 +7,11 @@ export default [
         "title": "100s of SpaceX Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
         "image": "https://www.spacex.com/static/images/share.jpg",
         "liked": true,
+        "disliked": false,
         "replies": 123,
         "retuits": 432,
         "likes": 2345,
+        "dislikes": 121,
         "handle": "@spacex",
         "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
     },
@@ -21,9 +23,11 @@ export default [
         "title": "React.js is a component based front end library that makes it very easy to build Single Page Applications or SPAs",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWs6-5eIn7Lf8MF71mpt59McL3DEX42E8Gcoikq__Y&s",
         "liked": false,
+        "disliked": false,
         "replies": 345,
         "retuits": 321,
         "likes": 1234,
+        "dislikes": 2,
         "tuit": "Here is my tweet. I am going to say nonsense for a while so it is longer. Yay web dev.",
         "handle": "@webdev"
     },
@@ -35,9 +39,11 @@ export default [
         "title": "JavaScript is programming language that can run on browsers as well as desktops",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
         "liked": false,
+        "disliked": true,
         "replies": 3425,
         "retuits": 3321,
         "likes": 134,
+        "dislikes": 3212,
         "tuit": "Hi!",
         "handle": "@javascript"
     },
@@ -49,9 +55,11 @@ export default [
         "time": "last week",
         "image": "https://www.joykal.com/wp-content/uploads/2019/09/jquery.png",
         "liked": false,
+        "disliked": false,
         "replies": 35,
         "retuits": 1,
         "likes": 14,
+        "dislikes": 0,
         "tuit": "Here is my tweet. I am going to say nonsense for a while so it is longer. Yay web dev.",
         "handle": "@jquery"
     },];
