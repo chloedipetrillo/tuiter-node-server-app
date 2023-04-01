@@ -60,16 +60,4 @@ const findUsers = (req, res) => {
 }
 
 export default UserController
-// import the array of users. Include the extension
-
-
-// use express instance app to declare HTTP GET
-// request pattern /api/users to call a function
-
-
-// function runs when /api/users requested
-// responds with JSON array of users
-
-
-// exports so app.js can import
 
