@@ -20,7 +20,8 @@ const templateTuit = {
 }
 const createTuit = async (req, res) => {
     const newTuit = req.body;
-    const insertedTuit = await tuitsDao.createTuit(newTuit);
+    const tuit = {...newTuit, ...templateTuit}
+    const insertedTuit = await tuitsDao.createTuit(tuit);
     res.json(insertedTuit);
 }
 
@@ -35,14 +36,14 @@ const updateTuit = async (req, res) => {
     const tuitdIdToUpdate = req.params.tid;
     const updates = req.body;
     const status = await tuitsDao.updateTuit(tuitdIdToUpdate, updates);
-    res.sendStatus(status);
+    res.json(status);
 }
 
 const deleteTuit = async (req, res) => {
     const tuitdIdToDelete = req.params.tid;
 
     const status = await tuitsDao.deleteTuit(tuitdIdToDelete);
-    res.sendStatus(status);
+    res.json(status);
 }
 
 
